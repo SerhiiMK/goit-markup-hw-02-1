@@ -1,0 +1,238 @@
+/* COLORS */
+    /* IRIS, Primary Brand (CTAs Focused Active states Links) #4D5AE5*/
+    /* Navy blue, Dark,(Overlays Shadows Headings) #2E2F42*/
+    /* GREEN, Success (Valid fields Success messages) #31D0AA */
+    /* SLATE, Text (Body text) #434455 */
+    /* LIGHT SLATE, Subtle Text (Helper text Deemphasized text) #8E8F99*/
+    /* cornflower, Accent (Accent color Hairlines Subtle backgrounds) #E7E9FC*/
+    /* CLOUD, Light (Light mode backgrounds Light mode Dialogs/alerts) F4F4FD */
+    /* body color #434455 */
+
+    
+    
+    /* root colors  */
+    :root {
+    --irish: #4D5AE5; --navyblue: #2E2F42; --success: #31D0AA; 
+    --slate: #434455; --lightsate: #8E8F99; --cornflower: #E7E9FC;
+    --clode: #F4F4FD; --body: #434455; --body-bg-color: #ffffff; 
+    --button-hero-tc: #ffffff; --button-hero-active: #404BBF;
+}
+
+/* toot font size */
+
+/* fonts */
+/* Primary-font "Roboto";, secondary-font - "Raleway" */
+:root {
+    --Primary-font: "Roboto";
+    --secondary-font: "Raleway";
+}
+a {
+    text-decoration: none;
+}
+
+/* body */
+.primary-style {
+    
+    font-family: "Roboto", sans-serif;
+    background-color: var(--body-bg-color);
+    color: var(--body);   
+    font-weight: 400;
+}
+
+.list {
+    list-style: none;
+    text-decoration: none;
+}
+
+/* header */
+
+.logo-web {
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    color: var(--irish);
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.2;
+}
+
+.logo-studio {
+        text-transform: uppercase;
+    color: var(--navyblue);
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.navigation-style {
+    color: var(--navyblue);
+    font: var(--Primary-fon), sans-serif;
+        font-weight: 600;
+        font-size: 16px
+        line-height: 1.5;
+}
+
+.navigation-style .transition {
+color: var(--navyblue);
+}
+
+.navigation-style .transition:hover,
+.navigation-style .transition:focus
+{ color: var(--slate);
+}
+
+
+.navigation-style .transition:active {
+    color: var(--irish);
+}
+
+.contacts {
+    color: var(--slate);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.contacts:hover,
+.contacts:focus
+{ color: var(--irish);
+}
+
+
+/* main */
+.hero {
+    background-color: var(--navyblue);
+}
+.hero-text {
+    color: var(--body-bg-color);
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.1;
+}
+
+.titles {
+    color: var(---navyblue);
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+.visually-hidden { 
+    position: absolute; white-space: nowrap; width: 1px; height: 1px; overflow: hidden; border: 0; padding: 0; clip: rect(0 0 0 0); clip-path: inset(50%); margin: -1px; }
+
+.hero-order {
+    background-color: var(--irish);
+    color: var(--button-hero-tc);
+    font-weight: 600;
+        line-height: 1.2;
+        cursor: pointer;
+}
+.hero-order:hover,
+.hero-order:focus
+{
+    background-color: var(--button-hero-active);
+        color: var(--button-hero-tc);
+}
+
+.hero-order:active {
+    background-color: var(--button-hero-active);
+}
+
+
+.advantages {
+    color: var(--navyblue);
+    font-weight: 600;
+    font-size: 20px;
+        line-height: 1.2;
+}
+
+.advantages-text{
+    color: var(--slate);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.job-profile {
+    color: var(--navyblue);
+    font-weight: 600;
+    font-size: 36px;
+        line-height: 1.1;
+}
+.section-teem-workers {
+    background-color: var(--clode);
+}
+
+.teem-workers {
+
+        color: var(--navyblue);
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 1.1;
+}
+
+.workers {
+    color: var(--navyblue);
+    font-weight: 600;
+    font-size: 20px;
+        line-height: 1.1;
+}
+.workers-bg-color {
+    background-color: var(--body-bg-color);
+}
+
+.position-workers {
+    color: var(--slate);
+    font-size: 16px;
+        line-height: 1.5;
+}
+
+/* portfolio */
+
+.filter {
+    font-family: var(--Primary-font);
+    color: var(--irish);
+    background-color: var(--clode);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+            cursor: pointer;
+
+}
+
+.filter:hover,
+.filter:focus {
+    background-color: var(--irish);
+    color: var(--button-hero-tc);
+}
+
+
+.portfolio-name {
+    color: var(--navyblue);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.portfolio-comment {
+    color: var(--slate);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* footer */
+.end-page {
+    background-color: var(--navyblue);
+}
+
+.logo-studio-end-page {
+    text-transform: uppercase;
+    color: var(--button-hero-tc);
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.2;
+}
+.end-page-text {
+    color: var(--cornflower);
+    line-height: 1.2;
+}
